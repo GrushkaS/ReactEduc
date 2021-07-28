@@ -1,0 +1,30 @@
+.NavBar{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.NavBar h3{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 16px;
+}
+
+.NavBar a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.NavBar a:hover{
+    background-color: #ff1829;
+    color: white;
+}
+
+.NavBar a:active{
+    background-color: #ff541e;
+    color: white;
+}
