@@ -1,19 +1,29 @@
-.Menu{
-
+.Menu {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: grid;
+    vertical-align: middle;
 }
 
-.Menu a:link{
+.Menu a:link {
     color: #ff1829;
 }
 
-.Menu a:visited{
+.Menu a:visited {
     color: #ff1829;
 }
 
-.Menu a:hover{
-    color: #333333;
+.Menu a:hover {
+    color: white;
 }
 
-.Menu a:active{
+.Menu a:active {
     color: #ff541e;
+}
+
+.Menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    vertical-align: middle;
 }

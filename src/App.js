@@ -15,7 +15,7 @@ function App() {
                 <div className="DivMenu">
                     <NavMenu/>
                 </div>
-                <hr/>
+                <hr className="DivSep"/>
                 <div className="DivBody">
                     <Body/>
                 </div>
