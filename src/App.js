@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./Header/Header";
 import NavMenu from "./NavMenu/NavMenu";
+import Body from "./Body/Body";
 
 function App() {
     return (
@@ -17,9 +17,7 @@ function App() {
                 </div>
                 <hr/>
                 <div className="DivBody">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, assumenda consequuntur dignissimos
-                        distinctio, ea eligendi laboriosam minus necessitatibus neque odit saepe sint suscipit, tempora
-                        vero.</p>
+                    <Body/>
                 </div>
             </div>
 

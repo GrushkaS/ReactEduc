@@ -43,7 +43,7 @@
 
 .DivMenu{
     border-radius: 5px;
-    background: #ff1829;
+    /*background: #ff1829;*/
     margin-right: 10px;
     min-width: 200px;
     max-width: 400px;
@@ -51,15 +51,15 @@
 
 .DivBody{
     border-radius: 5px;
-    background: #ff1829;
+    /*background: #ff1829;*/
     margin-left: 10px;
     width: auto;
 }
 
 .DivMain{
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
     display: flex;
 }
 

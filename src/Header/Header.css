@@ -3,6 +3,13 @@
     overflow: hidden;
 }
 
+.NavBar .App-logo{
+    width: 62px;
+    height: 62px;
+    float: left;
+    vertical-align: middle;
+}
+
 .NavBar h3{
     float: left;
     color: #f2f2f2;
@@ -12,7 +19,7 @@
 
 .NavBar a{
     float: right;
-    color: #f2f2f2;
+    color: #ff1829;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;

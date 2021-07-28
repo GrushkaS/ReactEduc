@@ -1,3 +1,19 @@
 .Menu{
 
 }
+
+.Menu a:link{
+    color: #ff1829;
+}
+
+.Menu a:visited{
+    color: #ff1829;
+}
+
+.Menu a:hover{
+    color: #333333;
+}
+
+.Menu a:active{
+    color: #ff541e;
+}
