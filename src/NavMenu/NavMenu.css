@@ -9,23 +9,23 @@
 }
 
 .Menu a:link {
-    color: #ff1829;
+    color: white;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
 }
 
 .Menu a:visited {
-    color: #ff1829;
+    color: white;
     text-decoration: none;
 }
 
 .Menu a:hover {
-    color: white;
+    color: #ff1829;
 }
 
 .Menu a:active {
-    color: #ff541e;
+    color: #ff7800;
 }
 
 .Menu img {

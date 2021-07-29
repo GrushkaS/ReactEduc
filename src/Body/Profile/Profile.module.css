@@ -1,0 +1,47 @@
+.Body {
+    height: 85vh;
+
+    display: grid;
+
+    grid-template-rows: 10fr 1fr;
+
+    grid-template-areas: "Content"
+                         "Images";
+}
+
+.AppLogo {
+    width: 150px;
+    height: 150px;
+    float: right;
+    /*display: block;*/
+    /*margin-left: auto;*/
+}
+
+.Content {
+    grid-area: Content;
+}
+
+.Images {
+    grid-area: Images;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*width: 85%;*/
+
+
+}
+
+.ProfileHeader {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    background: #333333;
+    margin-bottom: 10px;
+}
+
+.ProfilePosts {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    border-color: #333333;
+    border-style: solid;
+}

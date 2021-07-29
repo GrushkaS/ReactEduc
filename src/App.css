@@ -37,15 +37,21 @@
 /*  }*/
 /*}*/
 
+.App{
+    height: 100vh;
+    background-image: url("./../src/Resources/Large-Triangles.svg");
+}
+
 .DivHeader{
 
 }
 
 .DivMain{
     margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
     display: grid;
+    height: auto;
 
 
     grid-template-columns: 1fr 10px 10fr;
@@ -61,6 +67,7 @@
     margin-right: 10px;
     min-width: 200px;
     max-width: 400px;
+    height: auto;
 }
 
 .DivSep{

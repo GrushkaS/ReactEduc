@@ -1,7 +1,7 @@
 import './App.css';
 import Header from "./Header/Header";
 import NavMenu from "./NavMenu/NavMenu";
-import Body from "./Body/Body";
+import Profile from "./Body/Profile/Profile";
 
 function App() {
     return (
@@ -17,7 +17,7 @@ function App() {
                 </div>
                 <hr className="DivSep"/>
                 <div className="DivBody">
-                    <Body/>
+                    <Profile/>
                 </div>
             </div>
 
